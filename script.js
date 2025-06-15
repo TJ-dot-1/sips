@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             name: "Black Label",
             price: 3500,
-            image: "images/blackl.jpg",
+            image: "blackl.jpg",
             category: "whiskey"
         },
         {
             id: 2,
             name: "Jack Daniels",
             price: 3700,
-            image: "images/jack1.jpg",
+            image: "jack1.jpg",
             category: "whiskey"
         },
         {
