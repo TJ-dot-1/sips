@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sips & Spirits Haven - Premium Liquor Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Sips & Spirits Haven</div>
+        <div class="tagline">Your Premium Destination for Fine Liquor</div>
+        <br
+        <div class="tagline">Call 0706667129 / 0703142176 / 0703943296</div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#products">Our Products</a></li>
+            <li><a href="#cart">Your Cart</a></li>
+            <li><a href="#payment">Payment</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Discover Exceptional Spirits</h2>
+                <p>Explore our curated collection of premium liquors, whiskeys, gins, and beers from around the world and locally crafted favorites.</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </section>
+        
+        <section id="products">
+            <h2 class="section-title">Our Premium Selection</h2>
+            <div class="products" id="products-container">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </section>
+        
+        <section id="cart" class="cart-section">
+            <h2 class="section-title">Your Shopping Cart</h2>
+            <div class="cart-items" id="cart-items">
+                <p class="empty-cart-message">Your cart is empty. Start shopping to add items!</p>
+            </div>
+            <div class="cart-total">
+                Total: Kshs <span id="cart-total">0</span>
+            </div>
+            <button class="checkout-btn" id="checkout-btn">Proceed to Checkout</button>
+            
+            <div class="payment-info" id="payment">
+                <h3>Payment Information</h3>
+                <p class="payment-details">Please make payment to the following details:</p>
+                <div class="till-number">Till Number: 3137482</div>
+                <p>Name: Josiah</p>
+                <p>After payment, send the receipt to our WhatsApp number for order confirmation.</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="logo">Sips & Spirits Haven</div>
+            <p>Your trusted source for premium alcoholic beverages</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="current-year"></span> Sips & Spirits Haven. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
