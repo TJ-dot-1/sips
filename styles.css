@@ -77,7 +77,7 @@ nav a:hover {
 }
 
 .hero {
-    background: url('images/about.jpg') center/cover;
+    background: url('about.jpg') center/cover;
     height: 400px;
     display: flex;
     flex-direction: column;
